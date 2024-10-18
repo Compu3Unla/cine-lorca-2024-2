@@ -6,14 +6,58 @@
 
 /* css document */
 
+* {	
+	margin: 0%;
+	padding: 0%;
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
+    background-color: #1A1A1A;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+h1 {
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: var(--Verde-vivo, #3CB078);
+    font-family: "Fira Sans";
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h4 {
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* nav */
@@ -23,7 +67,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 100px 5px 100px;
+    padding: 15px 100px;
 }
 
 nav ul li {
@@ -48,6 +92,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 40px;
 }
 
 footer img {
@@ -70,10 +115,483 @@ footer ul li {
     color: white;
     font-weight: 300;
     line-height: 35px;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 70px 0px 0px;
 }
 
 .listas {
     display: flex;
     padding: 0px 100px 0px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*malen*/
+.contacto {
+    display: flex;
+    flex-direction: column; 
+    background-image: url(img/fondos/fondo-contacto.png); 
+    padding-top: 55px;
+}
+
+#contactanos {
+    align-items: flex-start;
+}
+
+form {
+	display: flex;
+    flex-direction: column;
+	gap: 10px;
+    max-width: fit-content;
+}
+
+.contacto-div {
+    display: flex;
+    justify-content: center;
+    gap: 263px;
+    align-items: flex-end;
+}
+
+.titular-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+label {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.9px;
+}
+::placeholder {
+    color:#B8B8B8;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+input {
+    width: 488px;
+    height: 27px;
+	padding: 5px 15px;
+	border: none; 
+    margin-bottom: 20px;  
+}
+
+textarea {
+    width: 488px;
+    height: 209px;
+	padding: 5px 15px;
+	border: none;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: fit-content;
+    padding-bottom: 72px;
+}
+
+#comollegar {
+    padding-top: 69px;
+}
+
+.enviar {
+    width: 133px;
+    height: 50px;
+    gap: 10px;
+    background: #207437;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.enviar:hover{
+    transition: 0.5s;
+    background: #3CB078;
 }
