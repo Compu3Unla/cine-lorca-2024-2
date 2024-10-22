@@ -34,7 +34,7 @@ h1 {
 h2 {
     color: var(--Verde-vivo, #3CB078);
     font-family: "Fira Sans";
-    font-size: 64px;
+    font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.28px;
 }
@@ -42,14 +42,14 @@ h2 {
 h3 {
     color: #FFF;
     font-family: "Fira Sans";
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 h4 {
     color: #ffffff;
     font-family: "Fira Sans";
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -125,19 +125,63 @@ footer ul li {
     padding: 0px 100px 0px 100px;
 }
 
+/* estrenos semanales */
+
+.estrenos {
+    padding: 50px;
+    background-image: url(img/fondos/fondo-contacto.png);
+}
+
+.estrenos h2 {
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.estrenos h4 {
+    color: #FFF;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.estrenos ul li {
+    list-style: none;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.bolder {
+    font-weight: 700;
+}
+
+.cartelera-index {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+.cartelera-index img {
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
+.titulos-pelis {
+    display: flex;
+    gap: 130px;
+}
 
+.posters-pelis {
+    display: flex;
+    gap: 60px;
+}
 
-
-
-
-
-
-
-
-
-
+.posters-pelis img {
+    padding: 20px 0px 20px 0px;
+}
 
 
 
@@ -653,50 +697,6 @@ textarea {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*ana*/
 .miembros {
     display: flex;
@@ -796,9 +796,4 @@ li {
     font-style: normal;
     line-height: 25px;
 }
-
-
-
-
-
 
