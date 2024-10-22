@@ -342,7 +342,10 @@ footer ul li {
 
 
 
-
+/*historia*/
+.cuadro-info {
+    background-color: #3CB078;
+}
 
 
 
@@ -553,9 +556,6 @@ footer ul li {
 .contacto {
     display: flex;
     flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
-    margin-bottom: 60px;
     background-image: url(img/fondos/fondo-contacto.png); 
     padding-top: 55px;
 }
@@ -573,8 +573,16 @@ form {
 
 .contacto-div {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     gap: 263px;
+    align-items: flex-end;
+}
+
+.titular-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
 }
 
 label {
@@ -612,6 +620,7 @@ textarea {
     flex-direction: column;
     gap: 10px;
     max-width: fit-content;
+    padding-bottom: 72px;
  }
 
  #comollegar {
