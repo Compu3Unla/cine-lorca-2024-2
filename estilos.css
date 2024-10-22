@@ -707,7 +707,6 @@ textarea {
     width: 100%;
     gap:45px;
     padding-left: 200px;
-
 }
 
 .opciones{
@@ -789,9 +788,6 @@ gap: 45px;
     bottom: 0px;
     background: var(--Gris, #414141);
 }
-
-
-
 
 li {
     color: #FFF;
