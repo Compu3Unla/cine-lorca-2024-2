@@ -751,9 +751,9 @@ gap: 45px;
     background: #3CB078;
 }
 
-.precio-mensual {
+.precio-plata {
     display: flex;
-    width: 395px;
+    width: 300px;
     height: 98px;
     padding: 0px 43px;
     justify-content: center;
@@ -763,6 +763,35 @@ gap: 45px;
     bottom: 0px;
     background: var(--Gris, #414141);
 }
+
+.precio-oro{
+    display: flex;
+    width: 300px;
+    height: 98px;
+    padding: 0px 43px;
+    justify-content: center;
+    align-items: space-around;
+    gap: 117px;
+    position: absolute;
+    bottom: 0px;
+    background: var(--Gris, #414141);
+}
+
+.precio-diamante{
+    display: flex;
+    width: 300px;
+    height: 98px;
+    padding: 0px 43px;
+    justify-content: center;
+    align-items: space-around;
+    gap: 117px;
+    position: absolute;
+    bottom: 0px;
+    background: var(--Gris, #414141);
+}
+
+
+
 
 li {
     color: #FFF;
