@@ -17,6 +17,7 @@ body {
     background-color: #1A1A1A;
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
@@ -46,7 +47,7 @@ h3 {
 }
 
 h4 {
-    color: #000;
+    color: #ffffff;
     font-family: "Fira Sans";
     font-size: 16px;
     font-weight: 400;
@@ -59,6 +60,7 @@ p {
     font-weight: 400;
     line-height: 30px;
 }
+
 
 /* nav */
 
