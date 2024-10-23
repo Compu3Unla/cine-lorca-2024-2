@@ -643,8 +643,94 @@ textarea {
     background: #3CB078;
 }
 
+/* cartelera */
+
+.elegida-semanal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    gap: 50px;
+}
+
+.title-cartelera {
+    font-size: 64px;
+    padding-bottom: 5px;
+}
+
+.elegida-semanal h3 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.elegida-semanal p {
+    width: 38.281vw;
+    padding-bottom: 30px;
+}
+
+.datos {
+    display: flex;
+    gap: 50px;
+}
+
+.datos-pelicula li {
+    list-style: none;
+    padding-bottom: 25px;
+    width: fit-content; 
+}
+
+.cartelera {
+    margin: 7% 5% 7% 6%;
+}
+
+.cartelera h2 {
+    padding-bottom: 40px;
+}
+
+.subtitulo-cartelera {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.desplegable {
+    padding-bottom: 5%;
+    background-color: #3CB078;
+    padding: 1.5% 2%;
+    margin-bottom: 2%;
+    max-width: max-content;
+}
+
+.desplegable ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.desplegable li {
+    width: fit-content;
+    list-style: none;
+    background-color:#207437;
+}
 
 
+.desplegable li h3{
+    padding: 5px 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.desplegable-boton {
+    display: flex;
+    gap: 38px;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+
+.desplegable-boton img {
+    padding-top: 4px;
+}
 
 
 
