@@ -125,6 +125,7 @@ footer ul li {
     padding: 0px 100px 0px 100px;
 }
 
+
 /* estrenos semanales */
 
 .estrenos {
@@ -342,10 +343,33 @@ footer ul li {
 
 
 /*historia*/
+
+.portada-historia {
+display: flex;
+align-items: center;
+width: 100%;
+height: 569px;
+background-image: url(img/historia/portada-historia.jpg);
+}
+
+.portada-historia h2 {
+display: flex;
+justify-content: flex-start;
+padding: 219px;
+font-size: 119px;
+font-weight: 700;
+width: 498px;
+word-wrap: break-word; /*por que no funciona???*/
+}
+
+
 .cuadro-info {
     background-color: #3CB078;
 }
 
+.info-1 {
+    padding-top: 300px;
+}
 
 
 
