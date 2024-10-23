@@ -130,11 +130,18 @@ footer ul li {
 .estrenos {
     padding: 50px;
     background-image: url(img/fondos/fondo-contacto.png);
+    display: flex;
+    justify-content: center;
+}
+
+.prueba {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .estrenos h2 {
     padding-bottom: 30px;
-    padding-left: 20px;
 }
 
 .estrenos h4 {
@@ -158,34 +165,24 @@ footer ul li {
 
 .cartelera-index {
     display: flex;
-    justify-content: space-evenly;
-    align-self: flex-start;
+    justify-content: center;
+    gap: 30px;
 }
 
-.cartelera-index img {
-    padding: 15px 0px 15px 0px;
-    display: flex;
-    flex-wrap: wrap;
+.una-linea img {
+    padding-top: 50px;
+    padding-bottom: 15px;
 }
 
-
-.titulos-pelis {
-    display: flex;
-    gap: 130px;
+.dos-lineas img {
+    padding-top: 26px;
+    padding-bottom: 15px;
 }
 
 .posters-pelis {
     display: flex;
     gap: 60px;
 }
-
-.posters-pelis img {
-    padding: 20px 0px 20px 0px;
-}
-
-
-
-
 
 
 
@@ -554,7 +551,8 @@ footer ul li {
 
 
 
-/*malen*/
+/* contacto */
+
 .contacto {
     display: flex;
     flex-direction: column; 
@@ -600,9 +598,9 @@ label {
     font-size: 16px;
     font-style: italic;
     font-weight: 500;
- }
+}
 
- input {
+input {
     width: 488px;
     height: 27px;
 	padding: 5px 15px;
@@ -617,18 +615,18 @@ textarea {
 	border: none;
 }
 
- .ubicacion {
+.ubicacion {
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: fit-content;
     padding-bottom: 72px;
- }
+}
 
- #comollegar {
+#comollegar {
     padding-top: 69px;
- }
- 
+}
+
 .enviar {
     width: 133px;
     height: 50px;
@@ -789,9 +787,6 @@ gap: 45px;
     bottom: 0px;
     background: var(--Gris, #414141);
 }
-
-
-
 
 li {
     color: #FFF;
