@@ -56,9 +56,9 @@ h4 {
 p {
     color: #FFF;
     font-family: "Fira Sans";
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 
@@ -345,39 +345,127 @@ footer ul li {
 /*historia*/
 
 .portada-historia {
-display: flex;
-align-items: center;
-width: 100%;
-height: 569px;
-background-image: url(img/historia/portada-historia.jpg);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-image: url(img/historia/portada-historia.jpg);
 }
 
 .portada-historia h2 {
-display: flex;
-justify-content: flex-start;
-padding: 219px;
-font-size: 119px;
-font-weight: 700;
-width: 498px;
-word-wrap: break-word; /*por que no funciona???*/
+    display: flex;
+    padding-left: 200px;
+    font-size: 75px;
+    font-weight: 700;
+    width: 498px;
 }
 
+.informacion-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
 
-.cuadro-info {
+.cuadro-verde {
+    display: flex;
     background-color: #3CB078;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    padding: 30px;
+    width: 25%;
+}
+
+.cuadro-verde h3 {
+padding-bottom: 10px;
 }
 
 .info-1 {
-    padding-top: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+}
+
+.imagen-1 {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    justify-content: center;
 }
 
 
+.info-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+}
+
+.imagen-2 {
+    display: flex;
+    padding-top: 120px;
+    padding-right: 50px;
+}
 
 
+.info-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 900px;
+    height: 650px;
+}
+
+.imagen-3 {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 50px;
+    justify-content: center;
+}
 
 
+.info-4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+}
 
+.imagen-4 {
+    display: flex;
+    padding-top: 120px;
+    padding-right: 50px;
+}
 
+.boton-historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+
+}
+
+.boton-historia div {
+    font-family: "Fira Sans";
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    background-color: #3CB078;
+    padding: 10px;
+}
 
 
 
@@ -666,6 +754,7 @@ textarea {
     transition: 0.5s;
     background: #3CB078;
 }
+
 
 /* cartelera */
 
