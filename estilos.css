@@ -456,6 +456,16 @@ footer ul li {
     position: absolute;
     padding: 30px;
     width: 25%;
+    z-index: 10;
+}
+
+.cuadro-verde { /*animaciones cuadro de texto verde*/
+transition: 0.5s
+}
+
+.cuadro-verde:hover {
+    background-color: #287b53;
+    transition: ease-in-out, 0.8s;
 }
 
 .cuadro-verde h3 {
@@ -478,7 +488,6 @@ padding-bottom: 10px;
     justify-content: center;
 }
 
-
 .info-2 {
     display: flex;
     justify-content: flex-start;
@@ -493,7 +502,6 @@ padding-bottom: 10px;
     padding-top: 120px;
     padding-right: 50px;
 }
-
 
 .info-3 {
     display: flex;
@@ -510,7 +518,6 @@ padding-bottom: 10px;
     padding-left: 50px;
     justify-content: center;
 }
-
 
 .info-4 {
     display: flex;
@@ -544,7 +551,14 @@ padding-bottom: 10px;
     padding: 10px;
 }
 
+.informacion-historia img { /*animacion de imagenes*/
+    transition: transform 0.5s ease-in-out;
+}
 
+.informacion-historia img:hover {
+    transform: scale(103%);
+    z-index: 0;
+}
 
 
 
