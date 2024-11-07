@@ -526,7 +526,7 @@ transition: 0.5s
 
 .cuadro-verde:hover {
     background-color: #287b53;
-    transition: ease-in-out, 0.8s;
+    transition: ease-in-out, 0.5s;
 }
 
 .cuadro-verde h3 {
@@ -603,6 +603,51 @@ padding-bottom: 10px;
 
 }
 
+/* atributos de imagenes ampliadas*/
+.light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 110vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light-box:target {
+    transform: scale(1);
+}
+
+.light-box img {
+    max-height: 100vh;
+}
+
+.next {
+    display: block;
+    height: 30px;
+    padding: 50px;
+}
+
+.cerrar {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    color: #FFF;
+    background-color: #3CB078;
+    font-family: "Fira Sans";
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
 .boton-historia div {
     font-family: "Fira Sans";
     font-size: 25px;
@@ -619,6 +664,7 @@ padding-bottom: 10px;
 .informacion-historia img:hover {
     transform: scale(103%);
     z-index: 0;
+    cursor: zoom-in;
 }
 
 
