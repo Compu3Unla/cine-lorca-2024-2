@@ -1611,3 +1611,81 @@ li {
         width: fit-content;
     }
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nopagina {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 15%;
+    text-align: center;
+}
+
+.carteleraboton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+
+}
+
+.boton-carteleraboton div {
+    font-family: "Fira Sans";
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    background-color: #3CB078;
+    padding: 10px;
+}
