@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <title>Cine Lorca</title>
         <link href="estilos.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     </head>
     <body>
         <header>
@@ -13,7 +14,7 @@
                 </div>
                 <div>
                     <ul>
-                        <li><a href="">CARTELERA</a></li>
+                        <li><a href="cartelera.html">CARTELERA</a></li>
                         <li><a href="historia.html">HISTORIA</a></li>
                         <li><a href="miembros.html">MIEMBROS</a></li>
                         <li><a href="contacto.html">CONTACTO</a></li>
@@ -22,60 +23,100 @@
             </nav>
         </header>
         <main>
-            <section class="estrenos">
-                <h2>Estrenos semanales</h2>
-                <article class="cartelera-index">
-                    <div>
+            <section class="slider">
+                <img src="img/banner-principal/logo-cine-lorca.svg" width="300px" alt="">
+                <p>¡Conocé nuestros estrenos!</p>
+                <div class="slider-img"></div>
+                <div class="slider-punto"></div>
+            </section>
+            <section class="estrenos" id="estrenos-semanales">
+                <div class="prueba">
+                    <h2>Estrenos semanales</h2>
+                    <article class="cartelera-index">
+                        <div class="una-linea">
                             <h3>El viejo roble</h3>
                             <h4>Ken Loach</h4>
-                        <img src="img/estrenos-semanales-cartelera/web/poster-el-viejo-roble.jpg" width="220px" alt="poster película el viejo roble">
-                        <ul>
-                            <li><span class="bolder">DURACIÓN:</span> 113 min</li>
-                            <li><span class="bolder">GÉNERO:</span> Drama</li>
-                            <li><span class="bolder">SAM</span> +13</li>
+                            <img src="img/estrenos-semanales-cartelera/web/poster-el-viejo-roble.jpg" width="220px" alt="poster película el viejo roble">
+                            <ul>
+                                <li><span class="bolder">DURACIÓN:</span> 113 min</li>
+                                <li><span class="bolder">GÉNERO:</span> Drama</li>
+                                <li><span class="bolder">SAM</span> +13</li>
+                            </ul>
+                        </div>
+                        <div class="una-linea">
+                            <h3>Tipos de gentileza</h3>
+                            <h4>Yorgos Lanthimos</h4>
+                            <img src="img/estrenos-semanales-cartelera/web/poster-tipos-de-gentileza.jpg" width="220px" alt="poster película tipos de gentileza">
+                            <ul>
+                                <li><span class="bolder">DURACIÓN:</span> 164 min</li>
+                                <li><span class="bolder">GÉNERO:</span> Comedia</li>
+                                <li><span class="bolder">SAM</span> +16</li>
+                            </ul>
+                        </div>
+                        <div class="dos-lineas"><a href="fichapelicula.html">
+                            <h3>El aroma del pasto<br>recién cortado</h3>
+                            <h4>Celina Murga</h4>
+                            <img src="img/estrenos-semanales-cartelera/web/poster-el-aroma-del-pasto.jpg" width="220px" alt="poster película el aroma del paso recién cortado">
+                            <ul>
+                                <li><span class="bolder">DURACIÓN:</span> 112 min</li>
+                                <li><span class="bolder">GÉNERO:</span> Drama</li>
+                                <li><span class="bolder">SAM</span> +13</li>
+                            </ul>
+                        </a></div>
+                        <div class="una-linea">
+                            <h3>El silencio</h3>
+                            <h4>Joachim Lafosse</h4>
+                            <img src="img/estrenos-semanales-cartelera/web/poster-un-silencio.jpg" width="220px" alt="poster película un silencio">
+                            <ul>
+                                <li><span class="bolder">DURACIÓN:</span> 101 min</li>
+                                <li><span class="bolder">GÉNERO:</span> Drama</li>
+                                <li><span class="bolder">SAM</span> +16</li>
+                            </ul>
+                        </div>
+                        <div class="una-linea">
+                            <h3>La sustancia</h3>
+                            <h4>Ken Loach</h4>
+                            <img src="img/estrenos-semanales-cartelera/web/poster-la-sustancia.jpg" width="220px" alt="poster película la sustancia">
+                            <ul>
+                                <li><span class="bolder">DURACIÓN:</span> 141 min</li>
+                                <li><span class="bolder">GÉNERO:</span> Ciencia ficción / Terror</li>
+                                <li><span class="bolder">SAM</span> +16</li>
+                            </ul>
+                        </div>
+                    </article>          
+                </div>
+            </section>
+            <section class="h-miembros">
+                <div class="miembros-texto">
+                    <h3>¿Fan del cine?</h3>
+                    <h2>Unite al club</h2>
+                    <p><a href="miembros.html">Hacete miembro</a></p>
+                </div>
+                <div class="h-animation">
+                <img src="img/icons/web/miembros/gif-estrella.gif" width="500px">
+                </div>
+            </section>
+            <section class="h-elegida-semanal" id="clasico-semanal">
+                <iframe width="504" height="284" src="https://www.youtube.com/embed/ygK7sAavO0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div>
+                    <h2 class="title-cartelera">Clásico de la semana</h2>
+                    <h3>Batman (1989)</h3>
+                    <p>Cinta basada en el cómic homónimo. La oscura y peligrosa ciudad de Gotham tan sólo se halla protegida por su corrupto cuerpo de policía. A pesar de los esfuerzos del fiscal del distrito Harvey Dent y el comisionado de policía Jim Gordon, la ciudad es cada vez más insegura hasta que aparece Batman, el Señor de la Noche. La reputada periodista Vicky Vale intentará descubrir el secreto que se oculta tras el hombre murciélago.</p>
+                    <div class="datos">
+                        <ul class="datos-pelicula">
+                            <li>Puntuación</li>
+                            <li>Director</li>
+                            <li>Productora</li>
+                            <li>Cast</li>
+                        </ul>
+                        <ul class="datos-pelicula2">
+                            <li><img src="img/icons/web/cartelera/estrellas.svg" alt="la película tiene una puntuación de 4 estellas"></li>
+                            <li>Tim Burton</li>
+                            <li>PolyGram Filmed Entertainment</li>
+                            <li>Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl</li>
                         </ul>
                     </div>
-                    <div>
-                        <h3>Tipos de gentileza</h3>
-                        <h4>Yorgos Lanthimos</h4>
-                    <img src="img/estrenos-semanales-cartelera/web/poster-tipos-de-gentileza.jpg" width="220px" alt="poster película tipos de gentileza">
-                        <ul>
-                            <li><span class="bolder">DURACIÓN:</span> 164 min</li>
-                            <li><span class="bolder">GÉNERO:</span> Comedia</li>
-                            <li><span class="bolder">SAM</span> +16</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>El aroma del pasto<br>recién cortado</h3>
-                        <h4>Celina Murga</h4>
-                        <img src="img/estrenos-semanales-cartelera/web/poster-el-aroma-del-pasto.jpg" width="220px" alt="poster película el aroma del paso recién cortado">
-                        <ul>
-                            <li><span class="bolder">DURACIÓN:</span> 112 min</li>
-                            <li><span class="bolder">GÉNERO:</span> Drama</li>
-                            <li><span class="bolder">SAM</span> +13</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>El silencio</h3>
-                        <h4>Joachim Lafosse</h4>
-                        <img src="img/estrenos-semanales-cartelera/web/poster-un-silencio.jpg" width="220px" alt="poster película un silencio">
-                        <ul>
-                            <li><span class="bolder">DURACIÓN:</span> 101 min</li>
-                            <li><span class="bolder">GÉNERO:</span> Drama</li>
-                            <li><span class="bolder">SAM</span> +16</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>La sustancia</h3>
-                        <h4>Ken Loach</h4>
-                        <img src="img/estrenos-semanales-cartelera/web/poster-la-sustancia.jpg" width="220px" alt="poster película la sustancia">
-                        <ul>
-                            <li><span class="bolder">DURACIÓN:</span> 141 min</li>
-                            <li><span class="bolder">GÉNERO:</span> Ciencia ficción / Terror</li>
-                            <li><span class="bolder">SAM</span> +16</li>
-                        </ul>
-                    </div>
-                </article>          
+                </div>
             </section>
         </main>
         <footer>
@@ -91,28 +132,28 @@
             </div>
             <div class="listas">
                 <ul>
-                    <li class="footer-bold">Home</li>
-                    <li>Inicio</li>
-                    <li>Estrenos semanales</li>
-                    <li>Clásico de la semana</li>
+                    <li class="footer-bold"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#estrenos-semanales">Estrenos semanales</a></li>
+                    <li><a href="#clasico-semanal">Clásico de la semana</a></li>
                 </ul>
                 <ul>
-                    <li class="footer-bold">Cartelera</li>
+                    <li class="footer-bold"><a href="cartelera.html">Cartelera</a></li>
                     <li>Clásicos</li>
                     <li>Estrenos</li>
                 </ul>
                 <ul>
-                    <li class="footer-bold">Historia</li>
+                    <li class="footer-bold"><a href="historia.html">Historia</a></li>
                     <li>Nuestra historia</li>
                 </ul>
                 <ul>
-                    <li class="footer-bold">Miembros</li>
+                    <li class="footer-bold"><a href="miembros.html">Miembros</a></li>
                     <li>Oro</li>
                     <li>Plata</li>
                     <li>Diamante</li>
                 </ul>
                 <ul>
-                    <li class="footer-bold">Contacto</li>
+                    <li class="footer-bold"><a href="contacto.html">Contacto</a></li>
                     <li class="footer-bold">Mail</li>
                     <li>lorcacine@gmail.com</li>
                     <span><li class="footer-bold">Teléfono</li>
