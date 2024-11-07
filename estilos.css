@@ -1310,16 +1310,84 @@ li {
     line-height: 25px;
 }
 
+.diamante-bold {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: bold;
+    line-height: 25px;
+
+}
 
 
+/*PAGO REALIZADO*/
 
 
+.pago-realizado {
+    display: flex;
+    width: 956px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 89px;
+    margin: 300px;
+}
+
+.pago-ok {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 276px;
+    padding-right: 54px;
+    gap: 20px;
+    border: 8px solid var(--Verde-vivo, #3CB078);
+}
+
+.titulo-pago {
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    color: #fff;
+}
+
+.subtitulo-pago {
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    color: #fff;
+}
 
 
+.boton-pago {
+    display: flex;
+    width: 236px;
+    height: 84px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--Verde-vivo, #3CB078);
+}
 
-
-
-
+.texto-pago {
+    color: var(--Negro, #1A1A1A);
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
 
 
 
