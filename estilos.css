@@ -1147,78 +1147,79 @@ width: 1309px;
 flex-direction: center;
 align-items: flex-start;
 gap: 45px;
+padding-bottom: 274px;
 }
 
 .plata {
-    display: flex;
     width: 395px;
-    height: 509px;
+    height: 400px;
     padding: 33px 45px;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 19px;
     background: #676767;
 }
 
 .oro {
-    display: flex;
     width: 395px;
-    height: 509px;
+    height: 400px;
     padding: 33px 45px;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 19px;
     background: #A19259;
 }
 
 .diamante {
-    display: flex;
     width: 395px;
-    height: 509px;
+    height: 400px;
     padding: 33px 45px;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 19px;
     background: #3CB078;
 }
 
+
+
 .precio-plata {
     display: flex;
-    width: 300px;
-    height: 98px;
-    padding: 0px 43px;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: space-around;
-    gap: 117px;
+    width: 320px;
+    height: 98px;
+    padding: 10px 43px;
+	justify-content: center;
+    gap: 10px 172px;
+    background: var(--Gris, #414141);
     position: absolute;
     bottom: 0px;
-    background: var(--Gris, #414141);
 }
 
 .precio-oro{
     display: flex;
-    width: 300px;
-    height: 98px;
-    padding: 0px 43px;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: space-around;
-    gap: 117px;
+    width: 321px;
+    height: 98px;
+    padding: 10px 43px;
+    gap: 10px 172px;
+    background: var(--Gris, #414141);
     position: absolute;
     bottom: 0px;
-    background: var(--Gris, #414141);
+    margin-left: 451px;
 }
 
 .precio-diamante{
     display: flex;
-    width: 300px;
-    height: 98px;
-    padding: 0px 43px;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: space-around;
-    gap: 117px;
+    width: 322px;
+    height: 98px;
+    padding: 10px 43px;
+	justify-content: center;
+    gap: 10px 172px;
+    background: var(--Gris, #414141);
     position: absolute;
     bottom: 0px;
-    background: var(--Gris, #414141);
+    margin-left: 902px;
 }
 
 li {
