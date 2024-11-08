@@ -219,18 +219,18 @@ footer ul li {
     width: fit-content;
 }
 
-.prev, .next {
+.prev-banner, .next-banner {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     padding: 0 10px;
 }
 
-.prev {
+.prev-banner {
     left: 10px;
 }
 
-.next {
+.next-banner {
     right: 10px;
 }
 
