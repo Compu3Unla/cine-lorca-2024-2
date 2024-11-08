@@ -1438,7 +1438,7 @@ li {
         padding-left: 50px;
     }
 
-    .prev, .next {
+    .prev-banner, .next-banner {
         top: 40%;
         transform: translateY(-50%);
         padding: 0 10px;
