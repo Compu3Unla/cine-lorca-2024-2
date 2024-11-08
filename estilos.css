@@ -67,9 +67,9 @@ p {
 
 nav { 
     background-color: #414141;
-    display: flex;
+   /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
     padding: 15px 100px;
 }
 
@@ -997,6 +997,7 @@ textarea {
 .datos {
     display: flex;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
 .datos-pelicula li {
@@ -1011,6 +1012,23 @@ textarea {
     padding-bottom: 10px;
     width: fit-content;
     font-size: 16px; 
+}
+
+.cartelera-entradas {
+    background-color: #207437;
+    padding: 15px 15px;
+    max-width: fit-content;
+    text-align: center;
+    font-weight: 500;
+    font-family: fira sans;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.cartelera-entradas:hover {
+    background-color: #3CB078;
+    color: #000;
+    transition: 0.6s;
 }
 
 .cartelera {
@@ -1132,7 +1150,7 @@ textarea {
     flex-direction: row;
     gap: 20px;
     align-items: baseline;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     color: var(--Verde-vivo, #3CB078);
     font-size: 64px;
     font-weight: 700;
@@ -1196,7 +1214,8 @@ textarea {
 }
 
 .info-pelicula p {
-    max-width: 614px;
+    max-width: 500px;
+    font-size: 1em;
 }
 
 .datos-sinopsis {
@@ -1543,11 +1562,19 @@ li {
 
 
 
+.nav-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
-
-
+.nav-mobile {
+    display: none;
+}
 
 @media only screen and (max-width: 1366px) {
 
@@ -1660,6 +1687,20 @@ li {
         font-size: 1em;
     }
 
+    .h-elegida-semanal {
+        margin: 80px 0px;
+        justify-content: center;        
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .h-elegida-semanal iframe {
+        max-width: 80%;
+    }
+
+    .h-elegida-semanal div {
+        max-width: 80%;
+    }
     .h-animation {
         position: absolute;
         padding: 40% 0px 0px 30%;
@@ -1681,6 +1722,79 @@ li {
         font-size: 1em;
         width: fit-content;
     }
+    .nav-desktop {
+        display: none;
+    }
+
+    header {
+        z-index: 1000;
+        bottom: 0;
+        position: fixed;
+        height: 75px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    nav {
+        padding: 18px 10px;
+    }
+
+    .nav-mobile {
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    nav ul  {
+        display: flex;        
+        justify-content: center;
+        gap: 30px;
+        padding: 0; 
+        margin: 0; 
+        width: auto;
+        align-items: center;    
+    }
+
+    nav ul li {
+        padding: 0px 10px;
+    }
+
+    .nopagina {
+        height: 100vh;
+    }
+
+    .nopagina div {
+        padding-top: 30vh;
+    }
+
+    .nopagina h2 {
+       font-size: 1.5em;
+    }
+    
+    .nopagina p {
+        background-color: #207437;
+        padding: 15px;
+        font-size: 1.1em;
+        max-width: fit-content;
+    }
+
+    footer {
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+    
+    .h-animation img {
+        display: none;
+    }
+
 } 
 
 
@@ -1737,26 +1851,36 @@ li {
 
 
 .nopagina {
+    background-image:  url(img/fondos/fondo-contacto.png);
+    padding: 15% 0%;
+}
+
+.nopagina div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    margin: 15%;
+    align-items: center;
     text-align: center;
 }
 
-.carteleraboton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 180px;
-
+.nopagina h2 {
+    margin: 0%;
+    padding: 0px 0px 40px 0px;
+    max-width: 50%;
+    background: none;
+    height: fit-content;
+    color: #FFF;
 }
 
-.boton-carteleraboton div {
-    font-family: "Fira Sans";
-    font-size: 25px;
-    color: white;
-    font-weight: 500;
+.nopagina p {
+    background-color: #207437;
+    padding: 15px;
+    font-size: 1.1em;
+    max-width: fit-content;
+}
+
+.nopagina p:hover {
     background-color: #3CB078;
-    padding: 10px;
+    transition: 0.6s;
 }
+

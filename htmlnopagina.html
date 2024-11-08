@@ -5,37 +5,43 @@
     <meta charset="utf-8" />
     <title>Cine Lorca</title>
     <link href="estilos.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 </head>
 
 <body>
     <header>
         <nav>
-            <div>
-                <a href="index.html"><img src="img/icons/web/logo-lorca-nav.svg" width="130px"
-                        alt="logo cine lorca"></a>
+            <div class="nav-desktop">
+                <div>
+                    <a href="index.html"><img src="img/icons/web/logo-lorca-nav.svg" width="130px" alt="logo cine lorca"></a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="cartelera.html">CARTELERA</a></li>
+                        <li><a href="historia.html">HISTORIA</a></li>
+                        <li><a href="miembros.html">MIEMBROS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
+            <div class="nav-mobile">
                 <ul>
-                    <li><a href="">CARTELERA</a></li>
-                    <li><a href="historia.html">HISTORIA</a></li>
-                    <li><a href="">MIEMBROS</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-monograma.svg" width="30px" alt="logo cine lorca"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-cartelera.svg" width="30px"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-historia.svg" width="30px"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-miembros.svg" width="30px"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-contacto.svg" width="30px"></a></li>
                 </ul>
-            </div>
+            </div>  
         </nav>
     </header>
     <main>
         <section class="nopagina">
-            <div class="nopagina-div">
-                <form method="post" action="" target="_blank" enctype="text/plain">
-                    <h2 class="nopagina">Todavía no sabemos la fecha de estreno de esta sección</h2>
+            <div>
+                <h2 class="nopagina">Todavía no sabemos la fecha de estreno de esta sección</h2>
+                <a href="index.html"><p>Volver al menú principal</p></a>
             </div>
-
-            <section class="carteleraboton">
-                <div>
-                    <h3><a href="index.html">CARTELERA</a></li>
-                </div>
-            </section>
+        </section>
     </main>
     <footer>
         <div class="logo-redes">
@@ -85,5 +91,4 @@
         </div>
     </footer>
 </body>
-
 </html>
