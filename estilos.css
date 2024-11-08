@@ -268,12 +268,19 @@ footer ul li {
 .suscripcion {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 50px;
 }
 
 .forms-suscripcion {
     display: flex;
-    justify-content: center;
-    margin: 40px;
+    margin: 40px 0px;
+    gap: 150px;
+}
+
+.enviar-pago {
+    align-self: flex-end;
+    margin-right: 145px;
 }
 
 input[type=number]::-webkit-outer-spin-button,
@@ -282,21 +289,20 @@ input[type=number]::-webkit-inner-spin-button {
     margin: 0;
 }
 
-.suscripcion h2, .suscripcion input[type="submit"] {
-    margin-left: 65px;
+.datos-personales h3, .datos-tarjeta h3 {
+    margin-bottom: 20px;
 }
 
-
-.datos-personales, .datos-tarjeta {
+.datos-personales-container, .datos-tarjeta-container {
     background-color: #207437;
-    width: 40%;
+    height: 70%;
+    width: 100%;
     padding: 60px;
-    margin: 20px;
     display: flex;
     justify-content: center;
 }
 
-.datos-tarjeta {
+.datos-tarjeta-container {
     background-color: white;
 }
 
@@ -324,15 +330,15 @@ input[type=number]::-webkit-inner-spin-button {
     height: 13px;
 }
 
-.datos-personales input::placeholder, .datos-tarjeta input::placeholder {
+.datos-personales-container input::placeholder, .datos-tarjeta-container input::placeholder {
     font-size: 14px;
 }
 
-.datos-tarjeta input::placeholder {
+.datos-tarjeta-container input::placeholder {
     color: #a0a0a0;
 }
 
-.datos-tarjeta img {
+.datos-tarjeta-container img {
     border: 1px solid black;
 }
 
@@ -939,7 +945,7 @@ textarea {
     padding-top: 69px;
 }
 
-.enviar {
+.enviar, .enviar-pago {
     width: 133px;
     height: 50px;
     gap: 10px;
@@ -950,7 +956,7 @@ textarea {
     font-weight: 700;
 }
 
-.enviar:hover{
+.enviar:hover, .enviar-pago:hover {
     transition: 0.5s;
     background: #3CB078;
 }
@@ -962,7 +968,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 80px;
+    padding: 80px;
     gap: 50px;
 }
 
@@ -1257,95 +1263,48 @@ textarea {
 /*ana*/
 .miembros {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center; 
     background-image: url(img/fondos/fondo-contacto.png); 
     padding-top: 55px;
-    width: 100%;
-    gap:45px;
-    padding-left: 200px;
-
 }
 
 .opciones{
-display: flex;
-width: 1309px;
-flex-direction: center;
-align-items: flex-start;
-gap: 45px;
-padding-bottom: 274px;
-}
-
-.plata {
-    width: 395px;
-    height: 400px;
-    padding: 33px 45px;
-    gap: 19px;
-    background: #676767;
-}
-
-.oro {
-    width: 395px;
-    height: 400px;
-    padding: 33px 45px;
-    gap: 19px;
-    background: #A19259;
-}
-
-.diamante {
-    width: 395px;
-    height: 400px;
-    padding: 33px 45px;
-    gap: 19px;
-    background: #3CB078;
-}
-
-
-
-.precio-plata {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: fit-content;
+    flex-direction: center;
+    align-items: flex-start;
+    gap: 45px;
+    margin: 50px 0px 100px 0px;
+}
+
+.plata, .oro, .diamante {
     width: 320px;
-    height: 98px;
-    padding: 10px 43px;
-	justify-content: center;
-    gap: 10px 172px;
-    background: var(--Gris, #414141);
-    position: absolute;
-    bottom: 0px;
+    height: 300px;
+    background: #676767;
+    padding: 50px;
 }
 
-.precio-oro{
+.oro { background-color: #A19259; }
+.diamante { background-color: #3CB078; }
+
+.precio-oro { background-color: #6C613A; }
+.precio-plata { background-color: #414141; }
+.precio-diamante { background-color: #226947; }
+
+.plata ul li, .oro ul li, .diamante ul li {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.precio-plata, .precio-oro, .precio-diamante {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 321px;
     height: 98px;
     padding: 10px 43px;
     gap: 10px 172px;
-    background: var(--Gris, #414141);
-    position: absolute;
-    bottom: 0px;
-    margin-left: 451px;
-}
-
-.precio-diamante{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 322px;
-    height: 98px;
-    padding: 10px 43px;
-	justify-content: center;
-    gap: 10px 172px;
-    background: var(--Gris, #414141);
-    position: absolute;
-    bottom: 0px;
-    margin-left: 902px;
 }
 
 li {
@@ -1362,10 +1321,8 @@ li {
     font-size: 20px;
     font-weight: 600;
     font-style: bold;
-    line-height: 25px;
 
 }
-
 
 /*PAGO REALIZADO*/
 
