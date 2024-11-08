@@ -1,108 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Cine Lorca</title>
-        <link href="estilos.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="nav-desktop">
-                    <div>
-                        <a href="index.html"><img src="img/icons/web/logo-lorca-nav.svg" width="130px" alt="logo cine lorca"></a>
-                    </div>
-                    <div>
-                        <ul>
-                            <li><a href="cartelera.html">CARTELERA</a></li>
-                            <li><a href="historia.html">HISTORIA</a></li>
-                            <li><a href="miembros.html">MIEMBROS</a></li>
-                            <li><a href="contacto.html">CONTACTO</a></li>
-                        </ul>
-                    </div>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cine Lorca</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-desktop">
+                <div>
+                    <a href="index.html"><img src="img/icons/web/logo-lorca-nav.svg" width="130px"
+                            alt="logo cine lorca"></a>
                 </div>
-                <div class="nav-mobile">
+                <div>
                     <ul>
-                        <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-monograma.svg" width="30px" alt="logo cine lorca"></a></li>
-                        <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-cartelera.svg" width="30px"></a></li>
-                        <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-historia.svg" width="30px"></a></li>
-                        <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-miembros.svg" width="30px"></a></li>
-                        <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-contacto.svg" width="30px"></a></li>
+                        <li><a href="cartelera.html">CARTELERA</a></li>
+                        <li><a href="historia.html">HISTORIA</a></li>
+                        <li><a href="miembros.html">MIEMBROS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
                     </ul>
-                </div>                    
-            </nav>
-        </header>
-        <main>
-            <section class="contacto">
-                <div class="contacto-div">
-                    <form method="post" action="" target="_blank" enctype="text/plain">
+                </div>
+            </div>
+            <div class="nav-mobile">
+                <ul>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-monograma.svg" width="30px"
+                                alt="logo cine lorca"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-cartelera.svg" width="30px"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-historia.svg" width="30px"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-miembros.svg" width="30px"></a></li>
+                    <li><a href="htmlnopagina.html"><img src="img/icons/mobile/nav-contacto.svg" width="30px"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contacto">
+            <div class="contacto-div">
+                <form method="post" action="" target="_blank" enctype="text/plain">
                     <h2 class="titular-contacto">Contactanos</h2>
-                        <label for="NOMBRE">NOMBRE</label>
-                        <input type="text" name="name" id="name" placeholder="Juan Pérez" maxlength="30" required>
-                        <label for="email">MAIL</label>
-                        <input type="email" name="email" id="email" placeholder="juanperez@gmail.com" required>
-                        <label>ASUNTO</label>
-                        <input type="text" name="asunto" id="asunto" maxlength="30" required>        
-                        <label for="MENSAJE">MENSAJE</label>
-                        <textarea name="Mensaje" id="mensaje" maxlength="300"></textarea>
-                        <input type="submit" value="Enviar" class="enviar" formenctype="text/plain">
-                    </form>    
-                    <div class="ubicacion">
-                        <h3>Donde estamos</h3>
-                        <p>Av. Corrientes 1428
+                    <label for="NOMBRE">NOMBRE</label>
+                    <input type="text" name="name" id="name" placeholder="Juan Pérez" maxlength="30" required>
+                    <label for="email">MAIL</label>
+                    <input type="email" name="email" id="email" placeholder="juanperez@gmail.com" required>
+                    <label>ASUNTO</label>
+                    <input type="text" name="asunto" id="asunto" maxlength="30" required>
+                    <label for="MENSAJE">MENSAJE</label>
+                    <textarea name="Mensaje" id="mensaje" maxlength="300"></textarea>
+                    <input type="submit" value="Enviar" class="enviar" formenctype="text/plain">
+                </form>
+                <div class="ubicacion">
+                    <h3>Donde estamos</h3>
+                    <p>Av. Corrientes 1428
                         <br>Capital Federal, CP 1033
                         <br>Buenos Aires, Argentina
-                        </p>
-                        <h3 id="comollegar">Cómo llegar</h3>
-                        <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9997957870432!2d-58.38951932425972!3d-34.60416667295408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac4276b48d1%3A0xfee863ba373fb778!2sCine%20Lorca!5e0!3m2!1ses-419!2sar!4v1729217247063!5m2!1ses-419!2sar" 
-                        width="400px" height="300px" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>      
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="logo-redes">
-                <div class="logo">
-                    <a href="index.html"><img src="img/icons/web/footer-logo-cine-lorca.svg" width="110px" alt=""></a>
-                </div>
-                <div class="redes">
-                    <a href="https://www.facebook.com/p/Cine-Lorca-100063470595409/?locale=es_LA" target="_blank"> <img src="img/icons/web/footer-facebook.svg" width="30px" alt="logo facebook"></a>
-                    <a href="https://www.instagram.com/cinelorca/?hl=es-la" target="_blank"> <img src="img/icons/web/footer-instagram.svg" width="30px" alt="logo instagram"></a>
-                    <a href="https://x.com/CineLorca" target="_blank"> <img src="img/icons/web/footer-x.svg" width="30px" alt="logo X"></a>
+                    </p>
+                    <h3 id="comollegar">Cómo llegar</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9997957870432!2d-58.38951932425972!3d-34.60416667295408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac4276b48d1%3A0xfee863ba373fb778!2sCine%20Lorca!5e0!3m2!1ses-419!2sar!4v1729217247063!5m2!1ses-419!2sar"
+                        width="400px" height="300px" style="border:0;" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
-            <div class="listas">
-                <ul>
-                    <li class="footer-bold">Home</li>
-                    <li>Inicio</li>
-                    <li>Estrenos semanales</li>
-                    <li>Clásico de la semana</li>
-                </ul>
-                <ul>
-                    <li class="footer-bold">Cartelera</li>
-                    <li>Clásicos</li>
-                    <li>Estrenos</li>
-                </ul>
-                <ul>
-                    <li class="footer-bold">Historia</li>
-                    <li>Nuestra historia</li>
-                </ul>
-                <ul>
-                    <li class="footer-bold">Miembros</li>
-                    <li>Oro</li>
-                    <li>Plata</li>
-                    <li>Diamante</li>
-                </ul>
-                <ul>
-                    <li class="footer-bold">Contacto</li>
-                    <li class="footer-bold">Mail</li>
-                    <li>lorcacine@gmail.com</li>
-                    <span><li class="footer-bold">Teléfono</li>
-                    <li>11 4371-5017</li></span>
-                </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="logo-redes">
+            <div class="logo">
+                <a href="index.html"><img src="img/icons/web/footer-logo-cine-lorca.svg" width="110px" alt="logo cine"></a>
             </div>
-        </footer>
-    </body>
+            <div class="redes">
+                <a href="https://www.facebook.com/p/Cine-Lorca-100063470595409/?locale=es_LA" target="_blank"> <img
+                        src="img/icons/web/footer-facebook.svg" width="30px" alt="logo facebook"></a>
+                <a href="https://www.instagram.com/cinelorca/?hl=es-la" target="_blank"> <img
+                        src="img/icons/web/footer-instagram.svg" width="30px" alt="logo instagram"></a>
+                <a href="https://x.com/CineLorca" target="_blank"> <img src="img/icons/web/footer-x.svg" width="30px"
+                        alt="logo X"></a>
+            </div>
+        </div>
+        <div class="listas">
+            <ul>
+                <li class="footer-bold">Home</li>
+                <li>Inicio</li>
+                <li>Estrenos semanales</li>
+                <li>Clásico de la semana</li>
+            </ul>
+            <ul>
+                <li class="footer-bold">Cartelera</li>
+                <li>Clásicos</li>
+                <li>Estrenos</li>
+            </ul>
+            <ul>
+                <li class="footer-bold">Historia</li>
+                <li>Nuestra historia</li>
+            </ul>
+            <ul>
+                <li class="footer-bold">Miembros</li>
+                <li>Oro</li>
+                <li>Plata</li>
+                <li>Diamante</li>
+            </ul>
+            <ul>
+                <li class="footer-bold">Contacto</li>
+                <li class="footer-bold">Mail</li>
+                <li>lorcacine@gmail.com</li>
+                <span>
+                    <li class="footer-bold">Teléfono</li>
+                    <li>11 4371-5017</li>
+                </span>
+            </ul>
+        </div>
+    </footer>
+</body>
+
 </html>
