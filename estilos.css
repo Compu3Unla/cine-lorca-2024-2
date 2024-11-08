@@ -1329,19 +1329,16 @@ li {
 
 .pago-realizado {
     display: flex;
-    width: 956px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 89px;
-    margin: 300px;
+    margin: 150px;
 }
 
 .pago-ok {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-around;
     justify-content: center;
     align-items: center;
     height: 276px;
